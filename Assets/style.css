@@ -26,8 +26,8 @@ header a {
 }
 
 header {
-    background-color: #dd2476;
-    background-image: linear-gradient(#dd2476, pink
+    background-color: #ce9791;
+    background-image: linear-gradient(#ff2c15, #pink
     );
 }
 
@@ -350,4 +350,15 @@ footer input::placeholder {
 
     footer .column i+i {
         padding: 0 0.5em;
+    }
+
+    .icon {
+        max-width: 10vmin;
+        padding-left: 20px;
+        padding-bottom: 5vmin;
+        padding-top: 2vmin;
+    }
+
+    .icon circle {
+        background-color: #dd2476;
     }
